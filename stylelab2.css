@@ -1,0 +1,232 @@
+.house_relativ_wall{
+	position: relative;
+	height: 195px; 
+	width: 240px; 
+	top: 200px;
+	left: 90px;
+	background: #CD5700 ;
+}
+.house_relativ_roof1 {
+	position: relative;
+	width: 0; 
+	height: 0;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 130px solid #592321;
+	top: -120px;
+	left: 80px;
+}
+.house_relativ_roof2 {
+	position: relative;
+	width: 0; 
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 120px solid #CD5700;
+	top: -230px;
+	left: 90px;
+}
+.house_relativ_door{
+	position: relative;
+	height: 150px; 
+	width: 170px; 
+	top: -245px;
+	left: 125px;
+	background: #B5A642 ;
+}
+.house_relativ_window {
+	width: 45px; 
+	height: 45px;
+	border-radius: 50%;
+	position: relative;
+	background: #01796F;
+	top: -320px;
+	left: 187px;
+}
+.house_static_wall{
+	position: static;
+	height: 195px; 
+	width: 300px; 
+	padding:0;
+	margin: -550px 490px 0px;
+	background: #E1CC4F ;
+}
+.house_static_roof1{
+	position: static;
+	width: 0; 
+	height: 0;
+	border-left: 180px solid transparent;
+	border-right: 160px solid transparent;
+	border-bottom: 120px solid #2F353B;
+	margin:-305px 0px 0px;
+	 margin-left: 470px;
+}
+.house_static_roof2{
+	position: static;
+	width: 0; 
+	height: 0;
+	border-left: 85px solid transparent;
+	border-right: 92px solid transparent;
+	border-bottom: 80px solid 	#474A51;
+	padding:0;
+	margin: -80px 50px 0px;
+	margin-left: 470px;
+}
+.house_static_window1{
+	position: static;
+	height: 65px; 
+	width: 105px; 
+	padding:0;
+	margin: 30px 50px 0px;
+	margin-left: 660px;
+	background: #01796F ;
+}
+.house_static_door{
+	position: static;
+	height: 145px; 
+	width: 65px; 
+	padding:0;
+	margin: -55px 50px 0px;
+	margin-left: 570px;
+	background: #712F26 ;
+}
+.house_static_window2{
+	position: static;
+	height: 30px; 
+	width: 50px; 
+	padding:0;
+	margin: -155px 50px 0px;
+	margin-left: 500px;
+	background: #01796F ;
+}
+.house_static_window3{
+	position: static;
+	height: 25px; 
+	width: 60px; 
+	padding:0;
+	margin-left: 680px;
+	background: #3BB08F ;
+}
+.house_static_door-handle{
+	width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: static;
+    padding:0;
+    margin: 20px 50px 0px;
+    margin-left: 620px;}
+.house_fixed_wall{
+	position: fixed;
+	height: 195px; 
+	width: 300px; 
+	top: 360px;
+	left: 490px;
+	background: #E1CC4F ;
+}
+.house_fixed_roof1{
+	position: fixed;
+	width: 0; 
+	height: 0;
+	border-left: 180px solid transparent;
+	border-right: 160px solid transparent;
+	border-bottom: 120px solid #2F353B;
+	top: 260px;
+	left: 475px;
+}
+.house_fixed_roof2{
+	position: fixed;
+	width: 0; 
+	height: 0;
+	border-left: 85px solid transparent;
+	border-right: 92px solid transparent;
+	border-bottom: 80px solid 	#474A51;
+	top: 300px;
+	left: 471px;
+}
+.house_fixed_window1{
+	position: fixed;
+	height: 65px; 
+	width: 105px; 
+	top: 410px;
+	left: 665px;
+	background: #01796F ;
+}
+.house_fixed_door{
+	position: fixed;
+	height: 145px; 
+	width: 65px; 
+	top: 410px;
+	left: 570px;
+	background: #712F26 ;
+}
+.house_fixed_window2{
+	position: fixed;
+	height: 30px; 
+	width: 50px; 
+	top: 410px;
+	left: 500px;
+	background: #01796F ;
+}
+.house_fixed_window3{
+	position: fixed;
+	height: 25px; 
+	width: 60px; 
+	top: 440px;
+	left: 688px;
+	background: #3BB08F ;
+}
+.house_fixed_door-handle{
+	width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    top: 470px;
+    left: 620px;
+}
+.house_absolute_wall{
+	position: absolute;
+	height: 195px; 
+	width: 240px; 
+	top: 200px;
+	left: 890px;
+	background: #CD5700 ;
+}
+.house_absolute_roof1{
+	position: absolute;
+	width: 0; 
+	height: 0;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 130px solid #592321;
+	top: 80px;
+	left: 880px;
+}
+.house_absolute_roof2 {
+	position: absolute;
+	width: 0; 
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 120px solid #CD5700;
+	top: 95px;
+	left: 890px;
+}
+.house_absolute_door{
+	position: absolute;
+	height: 150px; 
+	width: 170px; 
+	top: 245px;
+	left: 925px;
+	background: #B5A642 ;
+}
+.house_absolute_window {
+	width: 45px; 
+	height: 45px;
+	border-radius: 50%;
+	position: absolute;
+	background: #01796F;
+	top: 135px;
+	left: 987px;
+}
